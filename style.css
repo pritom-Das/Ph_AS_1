@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inter-tight-logo {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: #4e47ff;
+}
+.btn-signup {
+  background-color: #4e47ff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
