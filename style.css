@@ -1,9 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
+  padding: 10px 158px 10px 158px;
 }
 
+.inter-tight-h2 {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 60px;
+  font-style: normal;
+  margin-bottom: 20px;
+}
 .inter-tight-logo {
   font-family: "Inter Tight", sans-serif;
   font-optical-sizing: auto;
@@ -11,7 +26,7 @@ header {
   font-style: normal;
   color: #4e47ff;
 }
-.btn-signup {
+.btn {
   background-color: #4e47ff;
   border: none;
   border-radius: 8px;
@@ -19,4 +34,97 @@ header {
   padding: 8px 20px;
   font-size: 14px;
   font-weight: bold;
+}
+.container {
+  background-image: url("./Assets/Hero-bg.png");
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  margin-top: 130px;
+  height: 237px;
+  width: 750px;
+}
+main {
+  max-width: 1140px;
+
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.action-des {
+  width: 440px;
+  height: 203px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.action-image {
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+}
+.inter-tight-h3 {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 42px;
+
+  color: #252432;
+}
+
+.inter-tight-regular {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 24px;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+}
+.popularity {
+  background-color: rgba(78, 71, 255, 0.1);
+  height: 290px;
+  width: 1140px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  margin-top: 157px;
+}
+.popularity-number {
+  display: flex;
+  justify-content: space-between;
+
+  text-align: center;
+}
+.div-size {
+  height: 206px;
+  width: 856px;
+
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.font-size {
+  font-size: 80px;
+}
+.fontsize {
+  font-size: 20px;
 }
