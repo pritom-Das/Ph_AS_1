@@ -191,3 +191,76 @@ main {
 .uimage {
   border-radius: 180px;
 }
+.focus {
+  height: 696.77px;
+  /* border: 2px solid black;*/
+  background-color: #eef2f5;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  padding: 71px 150px 71px 150px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 158px;
+}
+.focus-image {
+  border-radius: 48px;
+}
+.focus-header {
+  font-size: 60px;
+}
+.focus-para {
+  font-size: 16px;
+}
+.contact {
+  height: 632px;
+  /*border: 2px solid red;*/
+  margin-top: 93px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.div-form {
+  width: 497px;
+  height: 490px;
+}
+.get-in-touch {
+  width: 528px;
+  height: 232px;
+}
+.contact-header {
+  font-size: 97px;
+  color: black;
+}
+.div-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+.div-form input[type="text"],
+.div-form textarea {
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.div-form textarea {
+  height: 167px;
+  resize: none;
+}
+.div-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
