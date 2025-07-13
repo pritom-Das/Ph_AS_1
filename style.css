@@ -109,6 +109,7 @@ main {
 .popularity-number {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 
   text-align: center;
 }
@@ -127,4 +128,66 @@ main {
 }
 .fontsize {
   font-size: 20px;
+}
+.review {
+  height: 342px;
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+.user-review {
+  height: 243px;
+  width: 1140px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.review-dim {
+  width: 366.67px;
+  height: 243px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 14px;
+  padding: 24px;
+
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+.review-h2-seize {
+  font-size: 24px;
+}
+
+.inter-tight-user-review {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+.review-p-size {
+  width: 318.67px;
+  height: 44px;
+  margin-top: 8px;
+}
+.user-info {
+  display: flex;
+}
+.user-name {
+  margin-left: 12px;
+}
+.reviewer-name {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+  font-size: 16px;
+}
+.review-date {
+  font-size: 12px;
+  font-weight: 200;
+}
+.uimage {
+  border-radius: 180px;
 }
